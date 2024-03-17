@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Car Company</title>
+    <!-- You can link your own CSS file here for styling -->
+     <link rel="stylesheet" href="carsolution.css">
+     <style>
+        body {
+            transition: background-color 0.5s ease;
+            font-family: Arial, sans-serif;
+        }
+        .dark-mode {
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        function toggleMode() {
+            const body = document.body;
+            body.classList.toggle("dark-mode");
+        }
+    </script>
+
+<nav>
+    <a id="logo">lamborghini</a>
+    <a id="nav1" href="#home">Home</a>
+    <a id="nav1" href="#models">Models</a>
+    <a id="nav1" href="#about">About Us</a>
+    <a id="nav1" href="#contact">Contact</a>
+</nav>
+
+<section>
+    <h2 id= "navi" >Lamborghini Aventador</h2>
+    <img id="img" src="https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2020/07_17_svj_xago/svj_xago_cover.jpg" alt="Car Image">
+    <p id="para">The exterior of the Lamborghini Aventador SVJ Roadster Xago Edition took 120 hours to produce and features a specially-created fading hexagonal silver effect, with a unique Ad Personam contrasting color livery for each car and gloss black Nireo Ad Personam rims. The interior, created in 80 hours, features an exclusive seat pattern with the hexagonita pattern, and special contrasting color to match the exterior. Each of the ten Aventador SVJ Roadster 
+        Xago models will be identified by a numbered plate.</p>
+        <button onclick="toggleMode()">Dark Mode</button>
+</section>
+
+<footer>
+    &copy; 2024 Your Car Company. All rights reserved.
+</footer>
+
+</body>
+</html>

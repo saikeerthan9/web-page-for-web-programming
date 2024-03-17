@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Website</title>
+</head>
+<body>
+    <h1>Welcome to my website!</h1>
+    <p>This is a simple website created with HTML and JavaScript.</p>
+    <button onclick="findMax()">Find Maximum</button>
+    <p id="result"></p>
+
+    <script>
+        function findMax() {
+  
+  const num1 = parseInt(prompt("Enter first number"));
+  const num2 = parseInt(prompt("Enter second number"));
+  const num3 = parseInt(prompt("Enter third number"));
+
+  
+  let max = Math.max(num1, num2, num3);
+
+  
+  document.getElementById("result").innerHTML = "Maximum is: " + max;
+}
+
+    </script>
+</body>
+</html>
